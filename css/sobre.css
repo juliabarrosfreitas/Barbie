@@ -1,0 +1,176 @@
+/* Reset de estilos padrão do navegador */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+	font-family:  'Snell Roundhand', cursive;
+  background-color: #ffcccc; /* Cor de fundo rosa */
+}
+
+/* Estilização do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcccc; /* Cor de fundo rosa */
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+	margin-top: 10%;
+	margin-left: -320%;
+	margin-top: -10%;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000; /* Cor do texto */
+    font-weight: bold;
+}
+
+
+.logo{
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+
+.container-sobre {
+    margin-top: 4%;
+    background-color: #ff000000;/* Sua cor de fundo desejada */
+    height: 350px; /* Ajuste a altura conforme necessário */
+    justify-content: center;
+    letter-spacing: 0.02em;
+}
+
+.container-sobre h5{
+    text-align: center;
+    justify-content: center;
+	color: hotpink;
+    font-size: 40px;
+    line-height: 1.1em;
+    text-align: center;
+}
+
+.container-sobre p{
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*card*/
+
+.container-card{
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgb(255, 0, 0);
+}
+
+.card{
+    background-color: #ffabab;
+    overflow: hidden;
+    display: grid;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+
+.card .img{
+    background-image: url('/card/1.png');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+
+.card .img1{
+    background-image: url('/card/2.png');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.card .img2{
+    background-image: url('/card/3.png');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.card .img2 span {
+    font-size: 24px;
+}
+
+
+
+.card .content p {
+    margin-bottom: 0;
+    margin: 2%;
+}
+
+
+.card .arrow{
+    padding: 15px;
+    font-size: 28px;
+}
+
+
+h1{
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+}
+.container-titulo{
+	text-align: center;
+    justify-content: center;
+	color: hotpink;
+    font-size: 40px;
+    line-height: 1.1em;
+    text-align: center;
+}
+.container-historia{
+	text-align: center;
+    justify-content: center;
+	color: rgb(0, 0, 0);
+    font-size: 25px;
+    line-height: 1.1em;
+    text-align: center;
+}

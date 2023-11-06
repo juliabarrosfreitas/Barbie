@@ -1,0 +1,76 @@
+/* Reset de estilos padrão do navegador */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+	font-family:  'Snell Roundhand', cursive;
+	background-color: #f5a9a9; /* Cor de fundo rosa */
+
+}
+
+/* Estilização do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #f5a9a9; /* Cor de fundo rosa */
+
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+	margin-left: -355%;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000; /* Cor do texto */
+    font-weight: bold;
+}
+
+/* Estilização do banner */
+.banner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Estilização dos destaques */
+.destaques {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.destaque {
+    text-align: center;
+}
+
+.destaque img {
+    max-width: 100%;
+    transition: transform 0.3s; /* Adiciona uma transição suave ao passar o mouse */
+}
+
+.destaque:hover img {
+    transform: scale(1.1); /* Aumenta a imagem em 10% ao passar o mouse */
+}
+
+.texto-destaque {
+    background-color: #ffcccc; /* Cor de fundo rosa */
+    padding: 10px;
+}
+
+/* Estilização dos links do cabeçalho */
+nav a:hover {
+    color: #ff0066; /* Cor diferente ao passar o mouse sobre os links */
+}
